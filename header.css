@@ -1,6 +1,6 @@
 header{
     min-height: 100vh;
-    background-image: url('https://github.com/Rostislav-Rendl/castlevania/blob/main/images/dead_cells_cv_main1.jpg');
+    background-image: url('../https://github.com/Rostislav-Rendl/castlevania/blob/main/images/dead_cells_cv_main1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 10%;
