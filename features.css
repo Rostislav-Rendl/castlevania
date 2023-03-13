@@ -1,0 +1,77 @@
+.part{
+    margin: 4rem 0 1rem 2rem;
+}
+
+.part h2{
+    color:  whitesmoke;
+    text-shadow: 2px 2px 0 rgb(207, 12, 12);
+}
+.part .content{
+    position: static;
+    bottom: 2rem;
+}
+figure{
+    max-width: max-content;
+}
+
+.content iframe{
+    width: min(650px, 100%);
+    min-height: 190px;
+}
+
+/* nastavení pro screeny 600px +  */
+
+@media screen and (min-width: 600px) {
+    .video-container {
+      padding-bottom: 75%; /* 4:3 aspect ratio for smaller screens */
+    }
+
+    main{
+        padding: 10rem 0;
+    }
+
+    .parts{
+        margin-bottom: 5rem;
+    }
+
+    .part{
+        display: flex;
+        align-items: center;
+        gap: 5rem;
+    }
+    
+    .part figure{
+        flex: 3;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
+    }
+    
+    .part .content{
+        flex: 4;
+        align-self: center;
+        border-right: 0.75rem solid rgb(160, 7, 7);
+        padding: 0 2rem;}
+
+    .part:nth-child(even) .content{
+        flex-direction: row-reverse;
+        border-left: 0.75rem solid rgb(160, 7, 7);
+        border-right: none;
+    }
+
+    .explore{
+        margin-top: 5rem ;
+    }
+    
+    .storyline{
+        margin-bottom: 10rem;
+    }
+    .what_is_cells{
+        margin-bottom: 6rem;
+    }
+
+
+
+  
+}

@@ -1,0 +1,100 @@
+header{
+    min-height: 100vh;
+    background-image: url('../images/dead_cells_cv_main1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 10%;
+    background-attachment: fixed;
+    
+}
+
+.main-nav{
+    width:100%;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    background: rgba(0, 0, 0, 0.5);
+
+    z-index: 2;
+    
+}
+
+.main-nav .menu{
+    font-size: 2.75rem;
+    line-height: 1;
+    display: flex;
+    gap: 5rem;
+    margin-left: 2rem;
+    
+}
+/* nastavení pro odkaz na fb v main menu */
+.fa{
+    margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 2rem;
+    align-items: stretch;
+
+    
+}
+
+/* nastavení pro screeny 1600px+ */
+@media screen and (min-width: 1600px) {
+    .fa{
+        margin-left: auto;
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: 1rem;
+
+
+    
+    }
+    
+}
+
+@media screen and (min-width: 1780px) {
+    
+     .dc, .au, .b, .ga{
+        margin-top: 1rem;
+     }
+
+
+
+
+}
+
+
+
+#facebook{
+    box-shadow: none;
+    width: 2.75rem;
+
+
+}
+
+/* hovery pro odkazy */
+.dc:hover, .au:hover, .b:hover, .ga:hover{ 
+    cursor: pointer;
+    border-bottom: 3px solid whitesmoke;
+    
+}
+
+
+
+
+ 
+    
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
